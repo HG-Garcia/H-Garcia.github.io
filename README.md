@@ -1,2 +1,2 @@
-# H-Garcia.github.io
+# HG-Garcia.github.io
 Senior Project
