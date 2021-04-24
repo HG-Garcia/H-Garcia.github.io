@@ -1,0 +1,216 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding:0;
+	outline:0;
+}
+
+body {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    line-height: 22px;
+    background-image: url(../../Downloads/200.jpg);
+    color: #FFFFFF;
+}
+/* CSS Document */
+
+#container {
+    width: 858px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #B77C55;
+    height: 979px;
+}
+#container header {
+    height: 130px;
+}
+
+#container section {
+    width: 857px;
+    float: left;
+}
+#container aside {
+    width: 200px;
+    float: left;
+    padding-left: 0px;
+}
+#container aside h3 {
+    font-size: 18px;
+}
+#container section h3 {
+}
+#container footer  {
+    color: #E3B48B;
+    background-color: #FFFFFF;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #B38359;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-right: 0px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 14px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FFFFFF;
+  color: #D9A17B;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #D9A17B;
+  color: white;
+}
+
+.cart-page{
+	margin: 80px auto;
+	font-family: Arial;
+}
+table{
+	width:100%;
+	border-collapse: collapse;
+}
+
+.cart-info{
+	display:flex;
+	flex-wrap:wrap;
+}
+th{
+	text-align: left;
+	padding: 5px;
+	color:#fff;
+	background: #E3B48B;
+	font-weight: normal;
+}
+
+td{
+	padding: 10px 5px;
+}
+td input{
+	width:40px;
+	height: 30px;
+	padding: 5px;
+	
+}
+td a{
+	color:#E3B48B;
+	font-size:12px;
+}
+td img{
+	margin-right:10px;
+}
+
+.total-price{
+	display: flex;
+	justify-content: flex-end;
+}
+.total-price table{
+	border-top: 3px solid #E3B48B;
+	width: 100%;
+	max-width: 400px;
+}
+td:last-child{
+	text-align: right;
+}
+th:last-child{
+	text-align: right;
+}
+.cart-info p{
+	display:none;
+}
+
+h3{
+	font-family: Optima;
+}
+
+.block{
+	width:90%;
+	max-width: 500px;
+	margin: 0 auto;
+	padding:20px;
+	box-shadow: 0px 0px 20px #00000010;
+	background-color: white;
+	border-radius: 8px;
+}
+.form-group{
+	color: #B77C55;
+	width: 100%;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.form-group input,
+.form-group textarea{
+	width:100%;
+	padding: 5px;
+	font-size:18px;
+	border: 1px solid rgba(128, 128, 128, 0.199);
+	margin-top: 5px;
+}
+
+textarea{
+	resize:vertical;
+}
+button[type="submit"]{
+	width:100%;
+	border:none;
+	outline: none;
+	padding: 20px;
+	font-size:28px;
+	border-radius: 8px;
+	font-family: Optima;
+	color: #FFFFFF;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: .3s ease background-color;
+}
+button[type="submit"]:hover{
+	background-color: rgba(214,226,236,1.00);	
+}
+#status{
+	width:90%;
+	max-width:500px;
+	text-align: center;
+	padding: 10px;
+	margin:0 auto;
+	border-radius: 8px;
+}
+#status.sucess{
+	background-color: rgba(173,252,80,1.00);
+	animation: status 4s ease fowards;
+	font-family: Verdana;
+}
+h2
+		{
+			font-size:30px;
+			font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+		}
+
+
+
+.info {
+	font-family: Courier New;
+	margin: 50px auto;
+	width:60%;
+}
+
+.title{
+	font-size: 25px;
+}
